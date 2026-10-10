@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número 1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/etNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCE5FF"
+        android:inputType="numberSigned|numberDecimal"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número 2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/etNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCE5FF"
+        android:inputType="numberSigned|numberDecimal"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suma"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD54F"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:id="@+id/btnResta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resta"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD54F"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:id="@+id/btnDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="División"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD54F"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:id="@+id/btnMultiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicación"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD54F" />
+</LinearLayout>
